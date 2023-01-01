@@ -216,7 +216,7 @@ nav li:hover a{
     background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
   }
   .home .controls{
-    padding: .5rem;
+    padding: .3rem;
     border-radius: 5rem;
     background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)); 
     position: relative;
