@@ -216,11 +216,12 @@ nav li:hover a{
     background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
   }
   .home .controls{
-    padding: .3rem;
+    padding: .5rem;
     border-radius: 5rem;
     background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)); 
     position: relative;
     top:40px;
+    margin:0 .4rem;
   }
   .home .controls .vid-btn{
     height:1rem;
@@ -229,7 +230,7 @@ nav li:hover a{
     border-radius: 50%;
     background: #fff;
     cursor:pointer;
-    margin:0 .3rem;
+    margin:0 .4rem;
   }
   .home .controls .vid-btn.active{
     background:yellow;
@@ -237,6 +238,9 @@ nav li:hover a{
   @media(max-width:991px){
     section .home{
       padding: 2rem;
+    }
+    .home .controls .vid-btn{
+        margin:0 .3rem;
     }
   }
 /* /bannner */
